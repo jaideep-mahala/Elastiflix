@@ -7,7 +7,7 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install --force
 
-RUN npx update-browserslist-db@latest
+RUN npx update-browserslist-db@latest || true
 
 COPY . .
 
