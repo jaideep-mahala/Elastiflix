@@ -1,0 +1,6 @@
+# NOTE (fork): upstream pinned elasticsearch==8.4.0, which predates the
+# inference.put / semantic_text / retriever APIs this script calls -- the
+# loader could not run as published. Bumped to a 9.x client, and added tqdm,
+# which the script imports but upstream never declared.
+elasticsearch==9.1.0
+tqdm==4.67.1
