@@ -1,6 +1,6 @@
 # Elastic Stack in One Shot — Elasticsearch, Logstash, Beats & Kibana
 
-This is a fork of [`elastic/Elastiflix`](https://github.com/elastic/Elastiflix), Elastic's
+This is a Elastic's
 Netflix-style movie search demo, extended so it teaches the **whole** Elastic Stack rather than
 just Elasticsearch.
 
